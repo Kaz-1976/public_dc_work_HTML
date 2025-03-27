@@ -322,6 +322,45 @@
         <div class="sample-exercise">
           <div class="sample-exercise-item">
             <div class="sample-exercise-item-title">
+              <h4>JavaScript：個人ブログ</h4>
+            </div>
+            <div class="sample-exercise-item-image">
+              <a href="https://blog.inaho.space/" target="_blank">
+                <img src="./images/screenshot04.png" alt="個人ブログ" title="個人ブログ" width="2560" height="1600" />
+              </a>
+            </div>
+            <div class="sample-exercise-item-text">
+              <h5>概要</h5>
+              <p>
+                個人ブログを製作しました。リンク先は外部サイトになります。
+              </p>
+              <p>
+                コンテンツ管理にmicroCMS、コード管理にGitHub、ビルド環境にGitHub Actions、デプロイ先にCloudflare Pagesをそれぞれ使用しています。
+              </p>
+              <p>
+                ビューはフレームワークにGatsby.jsを用いたJavaScriptで、静的サイトジェネレーターとしてページを生成しています。コード更新時やmicroCMSのコンテンツの追加や更新時にGitHub Actionsでビルドからデプロイを自動化しています。
+              </p>
+              <h5>工夫した点</h5>
+              <ul>
+                <li>レスポンシブ対応</li>
+                <p>
+                  記事一覧ページの記事リンクを画面幅に応じて1列から4列の可変としました。
+                </p>
+                <p>
+                  また記事詳細ページのレイアウトも記事情報の部分を画面幅に応じて可変としています。
+                </p>
+                <li>画像ギャラリー</li>
+                <p>
+                  記事ページ内に画像ギャラリーを複数セット配置できるようにしました。
+                </p>
+                <li>プログラムコードのハイライト機能</li>
+                <p>
+                  記事内にプログラムコードを記述する際に、コードの見やすさを向上させるために、Prism.jsによるハイライト機能を導入しました。
+              </ul>
+            </div>
+          </div>
+          <div class="sample-exercise-item">
+            <div class="sample-exercise-item-title">
               <h4>Laravel 12：ECサイト</h4>
             </div>
             <div class="sample-exercise-item-image">
@@ -353,7 +392,7 @@
                   </p>
                   <li>管理ユーザー</li>
                   <p>
-                    管理ユーザーは下記のユーザー管理機能で登録し、そのユーザーでログインすることが出来ます。スーパーユーザーを含む管理ユーザーはユーザー情報の新規登録および修正を行うことができます。
+                    管理ユーザーは下記のユーザー管理機能で登録し、そのユーザーでログインすることが出来ます。スーパーユーザーを含む管理ユーザーはユーザー情報の登録・編集を行うことができます。
                   </p>
                   <li>一般ユーザー</li>
                   <p>
@@ -407,7 +446,7 @@
                 </p>
                 <li>セキュリティ対策</li>
                 <p>
-                  パスワードのハッシュ化、CSRF対策、XSS対策、SQLインジェクション対策を行いました。また、APIを使って実装した機能もあるため、APIのセキュリティも考慮しました。
+                  パスワードのハッシュ化、CSRF対策、XSS対策、SQLインジェクション対策を行いました。また、APIとして実装した機能もあるため、APIのセキュリティも考慮しました。
                 </p>
                 <li>ユーザー体験向上</li>
                 <p>
@@ -434,42 +473,6 @@
                 <li>一般ユーザー</li>
                 <p>
                   ID： TestUser01 / PW： TestUser01
-                </p>
-              </ul>
-            </div>
-          </div>
-          <div class="sample-exercise-item">
-            <div class="sample-exercise-item-title">
-              <h4>JavaScript：個人ブログ</h4>
-            </div>
-            <div class="sample-exercise-item-image">
-              <a href="https://blog.inaho.space/" target="_blank">
-                <img src="./images/screenshot04.png" alt="個人ブログ" title="個人ブログ" width="2560" height="1600" />
-              </a>
-            </div>
-            <div class="sample-exercise-item-text">
-              <h5>概要</h5>
-              <p>
-                個人ブログを製作しました。リンク先は外部サイトになります。
-              </p>
-              <p>
-                コンテンツ管理にmicroCMS、コード管理にGitHub、ビルド環境にGitHub Actions、デプロイ先にCloudflare Pagesをそれぞれ使用しています。
-              </p>
-              <p>
-                ビューはフレームワークにGatsby.jsを用いたJavaScriptで、静的サイトジェネレーターとしてページを生成しています。コード更新時やmicroCMSのコンテンツ追加時や更新時にGitHub Actionsでビルドを自動化しています。
-              </p>
-              <h5>工夫した点</h5>
-              <ul>
-                <li>レスポンシブ対応</li>
-                <p>
-                  画面幅に応じて記事一覧ページの記事リンクを1列から4列に可変としています。
-                </p>
-                <p>
-                  また記事詳細ページのレイアウトも記事情報の部分を画面幅に応じて可変としています。
-                </p>
-                <li>画像ギャラリー</li>
-                <p>
-                  記事ページ内に画像ギャラリーを複数セット配置できるようにしたところです。
                 </p>
               </ul>
             </div>
