@@ -222,6 +222,7 @@ header {
 
 .self-intro-block-list {
   display: block;
+  flex-direction: column;
   margin: 0px;
   padding: 20px 20px;
 }
@@ -582,6 +583,8 @@ footer {
   }
 
   .container {
+    display: flex;
+    flex-direction: column;
     width: 90%;
   }
 
@@ -606,15 +609,16 @@ footer {
     flex-direction: column;
     width: 100%;
     margin: 40px auto 0px;
+    gap: 10px;
   }
 
   .self-intro-block {
     width: 100%;
-    margin: 10px auto 0px;
   }
 
-  .self-intro-block:first-child {
-    margin: 0px auto;
+  .self-intro-block-list {
+    margin: 0px;
+    padding: 20px 20px;
   }
 
   .sample-title {
